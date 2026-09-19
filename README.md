@@ -29,6 +29,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Dry-run is the default. The launch wizard can **simulate a wallet** and **simulate create** without signing on-chain.
 
+Live launch (`NEXT_PUBLIC_MAINNET=true`): connect Phantom/Solflare, create on pump.fun, then lock creator fees **8000/2000 bps** (80% sweep / 20% protocol) and revoke further edits.
+
 ## Env
 
 See `.env.example`.
@@ -36,11 +38,12 @@ See `.env.example`.
 | Variable | Purpose |
 |---|---|
 | `NEXT_PUBLIC_DRY_RUN` | `true` (default) simulates signatures and labels mock receipts |
-| `NEXT_PUBLIC_MAINNET` | `true` turns off fake sweeps; live RPC required |
+| `NEXT_PUBLIC_MAINNET` | `true` turns off fake sweeps and enables live pump.fun create |
 | `NEXT_PUBLIC_RPC_URL` | Solana RPC (Helius recommended) |
 | `HELIUS_API_KEY` | Indexer for later sweep-wallet watching |
 | `MAGIC_EDEN_API` | Live floors (mock fallback if empty) |
-| `NEXT_PUBLIC_PROTOCOL_FEE_WALLET` | 20% protocol destination pubkey |
+| `NEXT_PUBLIC_SWEEP_WALLET` | 80% public sweep destination; required for live launch |
+| `NEXT_PUBLIC_PROTOCOL_FEE_WALLET` | 20% protocol destination pubkey; required for live launch |
 | `NEXT_PUBLIC_SOLSCAN_BASE` | Explorer links for receipts |
 
 ## Routes
@@ -61,4 +64,4 @@ Brand: mop `#3DFF9A` on void `#07080C`. Type: Space Grotesk + Inter + JetBrains 
 ## Dry-run vs mainnet
 
 - **Dry-run:** mock counters, floors, and 111 local NFT images as demo receipts. Launch signs nothing.
-- **Mainnet:** set `NEXT_PUBLIC_MAINNET=true` and `NEXT_PUBLIC_DRY_RUN=false`. Sweep gallery stays empty until a real watcher persists on-chain buys. Do not ship fake sweeps in this mode.
+- **Mainnet:** set `NEXT_PUBLIC_MAINNET=true` (this also turns dry-run off). Launch uploads metadata, you sign **create**, then **fee-share lock**. Sweep gallery stays empty until a real watcher persists on-chain buys. Do not ship fake sweeps in this mode.

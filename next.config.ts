@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  serverExternalPackages: [
+    "@pump-fun/pump-sdk",
+    "@pump-fun/pump-swap-sdk",
+    "@pump-fun/agent-payments-sdk",
+    "@coral-xyz/anchor",
+  ],
   webpack: (config) => {
     config.module.rules.push({
       resourceQuery: /raw/,
