@@ -1,0 +1,826 @@
+{
+  "collections": [
+    {
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "files": [
+        "claynosaurz-0.jpg",
+        "claynosaurz-1.jpg",
+        "claynosaurz-2.jpg",
+        "claynosaurz-3.jpg",
+        "claynosaurz-4.jpg",
+        "claynosaurz-5.jpg",
+        "nft-claynosaurz-00.jpg",
+        "nft-claynosaurz-01.jpg",
+        "nft-claynosaurz-02.jpg",
+        "nft-claynosaurz-03.jpg",
+        "nft-claynosaurz-04.jpg",
+        "nft-claynosaurz-05.jpg",
+        "nft-claynosaurz-06.jpg",
+        "nft-claynosaurz-07.jpg",
+        "nft-claynosaurz-08.jpg",
+        "nft-claynosaurz-09.jpg",
+        "nft-claynosaurz-10.jpg",
+        "nft-claynosaurz-11.jpg"
+      ]
+    },
+    {
+      "slug": "degods",
+      "name": "Degods",
+      "files": [
+        "degods-1.jpg",
+        "degods-2.png",
+        "degods-3.jpg",
+        "degods-4.png",
+        "degods-5.png",
+        "nft-degods-00.jpg",
+        "nft-degods-01.png",
+        "nft-degods-02.jpg",
+        "nft-degods-03.png",
+        "nft-degods-04.png",
+        "nft-degods-05.png",
+        "nft-degods-06.jpg",
+        "nft-degods-07.png",
+        "nft-degods-08.png",
+        "nft-degods-09.png",
+        "nft-degods-10.png",
+        "nft-degods-11.png"
+      ]
+    },
+    {
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "files": [
+        "mad_lads-0.png",
+        "mad_lads-1.jpg",
+        "mad_lads-2.jpg",
+        "mad_lads-3.jpg",
+        "mad_lads-4.jpg",
+        "mad_lads-5.jpg",
+        "nft-mad_lads-00.jpg",
+        "nft-mad_lads-01.jpg",
+        "nft-mad_lads-02.jpg",
+        "nft-mad_lads-03.jpg",
+        "nft-mad_lads-04.jpg",
+        "nft-mad_lads-05.jpg",
+        "nft-mad_lads-06.jpg",
+        "nft-mad_lads-07.jpg",
+        "nft-mad_lads-08.jpg",
+        "nft-mad_lads-09.jpg",
+        "nft-mad_lads-10.jpg",
+        "nft-mad_lads-11.jpg"
+      ]
+    },
+    {
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "files": [
+        "nft-blocksmith_labs-00.png",
+        "nft-blocksmith_labs-01.png",
+        "nft-blocksmith_labs-02.jpg",
+        "nft-blocksmith_labs-03.jpg",
+        "nft-blocksmith_labs-04.png",
+        "nft-blocksmith_labs-05.png",
+        "nft-blocksmith_labs-06.png",
+        "nft-blocksmith_labs-07.png",
+        "nft-blocksmith_labs-08.png",
+        "nft-blocksmith_labs-09.png",
+        "nft-blocksmith_labs-10.png",
+        "nft-blocksmith_labs-11.png"
+      ]
+    },
+    {
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "files": [
+        "nft-famous_fox_federation-00.png",
+        "nft-famous_fox_federation-01.png",
+        "nft-famous_fox_federation-02.png",
+        "nft-famous_fox_federation-03.png",
+        "nft-famous_fox_federation-04.png",
+        "nft-famous_fox_federation-05.png",
+        "nft-famous_fox_federation-06.png",
+        "nft-famous_fox_federation-07.png",
+        "nft-famous_fox_federation-08.png",
+        "nft-famous_fox_federation-09.png",
+        "nft-famous_fox_federation-10.png",
+        "nft-famous_fox_federation-11.png"
+      ]
+    },
+    {
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "files": [
+        "nft-okay_bears-00.png",
+        "nft-okay_bears-01.png",
+        "nft-okay_bears-02.png",
+        "nft-okay_bears-03.png",
+        "nft-okay_bears-04.png",
+        "nft-okay_bears-05.png",
+        "nft-okay_bears-06.png",
+        "nft-okay_bears-07.png",
+        "nft-okay_bears-08.png",
+        "nft-okay_bears-09.png",
+        "nft-okay_bears-10.png",
+        "nft-okay_bears-11.png",
+        "okay_bears-1.png",
+        "okay_bears-2.png",
+        "okay_bears-3.png",
+        "okay_bears-4.png",
+        "okay_bears-5.png"
+      ]
+    },
+    {
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "files": [
+        "nft-y00ts-00.png",
+        "nft-y00ts-01.png",
+        "nft-y00ts-02.png",
+        "nft-y00ts-03.png",
+        "nft-y00ts-04.png",
+        "nft-y00ts-05.png",
+        "nft-y00ts-06.png",
+        "nft-y00ts-07.png",
+        "nft-y00ts-08.png",
+        "nft-y00ts-09.png",
+        "nft-y00ts-10.png",
+        "nft-y00ts-11.png",
+        "y00ts-1.png",
+        "y00ts-2.png",
+        "y00ts-3.png",
+        "y00ts-4.png",
+        "y00ts-5.png"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "claynosaurz-0.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 38678
+    },
+    {
+      "file": "claynosaurz-1.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 40004
+    },
+    {
+      "file": "claynosaurz-2.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 54579
+    },
+    {
+      "file": "claynosaurz-3.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 42631
+    },
+    {
+      "file": "claynosaurz-4.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 50252
+    },
+    {
+      "file": "claynosaurz-5.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 58030
+    },
+    {
+      "file": "degods-1.jpg",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 121371
+    },
+    {
+      "file": "degods-2.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 1303077
+    },
+    {
+      "file": "degods-3.jpg",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 135523
+    },
+    {
+      "file": "degods-4.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 999737
+    },
+    {
+      "file": "degods-5.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 1329752
+    },
+    {
+      "file": "mad_lads-0.png",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 37177
+    },
+    {
+      "file": "mad_lads-1.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 101890
+    },
+    {
+      "file": "mad_lads-2.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 112101
+    },
+    {
+      "file": "mad_lads-3.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 113455
+    },
+    {
+      "file": "mad_lads-4.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 98274
+    },
+    {
+      "file": "mad_lads-5.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 100745
+    },
+    {
+      "file": "nft-blocksmith_labs-00.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1240139
+    },
+    {
+      "file": "nft-blocksmith_labs-01.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1098214
+    },
+    {
+      "file": "nft-blocksmith_labs-02.jpg",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 147055
+    },
+    {
+      "file": "nft-blocksmith_labs-03.jpg",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 108238
+    },
+    {
+      "file": "nft-blocksmith_labs-04.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1140249
+    },
+    {
+      "file": "nft-blocksmith_labs-05.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1024582
+    },
+    {
+      "file": "nft-blocksmith_labs-06.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1441030
+    },
+    {
+      "file": "nft-blocksmith_labs-07.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1394718
+    },
+    {
+      "file": "nft-blocksmith_labs-08.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 975538
+    },
+    {
+      "file": "nft-blocksmith_labs-09.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1231772
+    },
+    {
+      "file": "nft-blocksmith_labs-10.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1028199
+    },
+    {
+      "file": "nft-blocksmith_labs-11.png",
+      "slug": "blocksmith_labs",
+      "name": "Blocksmith Labs",
+      "bytes": 1143257
+    },
+    {
+      "file": "nft-claynosaurz-00.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 40004
+    },
+    {
+      "file": "nft-claynosaurz-01.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 54579
+    },
+    {
+      "file": "nft-claynosaurz-02.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 42631
+    },
+    {
+      "file": "nft-claynosaurz-03.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 50252
+    },
+    {
+      "file": "nft-claynosaurz-04.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 58030
+    },
+    {
+      "file": "nft-claynosaurz-05.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 53205
+    },
+    {
+      "file": "nft-claynosaurz-06.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 42870
+    },
+    {
+      "file": "nft-claynosaurz-07.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 53106
+    },
+    {
+      "file": "nft-claynosaurz-08.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 51675
+    },
+    {
+      "file": "nft-claynosaurz-09.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 53905
+    },
+    {
+      "file": "nft-claynosaurz-10.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 44972
+    },
+    {
+      "file": "nft-claynosaurz-11.jpg",
+      "slug": "claynosaurz",
+      "name": "Claynosaurz",
+      "bytes": 57811
+    },
+    {
+      "file": "nft-degods-00.jpg",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 121371
+    },
+    {
+      "file": "nft-degods-01.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 1303077
+    },
+    {
+      "file": "nft-degods-02.jpg",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 135523
+    },
+    {
+      "file": "nft-degods-03.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 999737
+    },
+    {
+      "file": "nft-degods-04.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 1329752
+    },
+    {
+      "file": "nft-degods-05.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 1191739
+    },
+    {
+      "file": "nft-degods-06.jpg",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 109004
+    },
+    {
+      "file": "nft-degods-07.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 1450198
+    },
+    {
+      "file": "nft-degods-08.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 997480
+    },
+    {
+      "file": "nft-degods-09.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 1149870
+    },
+    {
+      "file": "nft-degods-10.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 1185610
+    },
+    {
+      "file": "nft-degods-11.png",
+      "slug": "degods",
+      "name": "Degods",
+      "bytes": 961221
+    },
+    {
+      "file": "nft-famous_fox_federation-00.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 173456
+    },
+    {
+      "file": "nft-famous_fox_federation-01.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 401400
+    },
+    {
+      "file": "nft-famous_fox_federation-02.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 199308
+    },
+    {
+      "file": "nft-famous_fox_federation-03.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 271598
+    },
+    {
+      "file": "nft-famous_fox_federation-04.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 152932
+    },
+    {
+      "file": "nft-famous_fox_federation-05.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 256119
+    },
+    {
+      "file": "nft-famous_fox_federation-06.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 201049
+    },
+    {
+      "file": "nft-famous_fox_federation-07.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 177101
+    },
+    {
+      "file": "nft-famous_fox_federation-08.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 139487
+    },
+    {
+      "file": "nft-famous_fox_federation-09.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 514197
+    },
+    {
+      "file": "nft-famous_fox_federation-10.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 305370
+    },
+    {
+      "file": "nft-famous_fox_federation-11.png",
+      "slug": "famous_fox_federation",
+      "name": "Famous Fox Federation",
+      "bytes": 193725
+    },
+    {
+      "file": "nft-mad_lads-00.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 101890
+    },
+    {
+      "file": "nft-mad_lads-01.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 112101
+    },
+    {
+      "file": "nft-mad_lads-02.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 113455
+    },
+    {
+      "file": "nft-mad_lads-03.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 98274
+    },
+    {
+      "file": "nft-mad_lads-04.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 100745
+    },
+    {
+      "file": "nft-mad_lads-05.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 127330
+    },
+    {
+      "file": "nft-mad_lads-06.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 130317
+    },
+    {
+      "file": "nft-mad_lads-07.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 133055
+    },
+    {
+      "file": "nft-mad_lads-08.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 99397
+    },
+    {
+      "file": "nft-mad_lads-09.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 111471
+    },
+    {
+      "file": "nft-mad_lads-10.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 105290
+    },
+    {
+      "file": "nft-mad_lads-11.jpg",
+      "slug": "mad_lads",
+      "name": "Mad Lads",
+      "bytes": 155484
+    },
+    {
+      "file": "nft-okay_bears-00.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 610844
+    },
+    {
+      "file": "nft-okay_bears-01.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 560134
+    },
+    {
+      "file": "nft-okay_bears-02.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 498583
+    },
+    {
+      "file": "nft-okay_bears-03.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 574227
+    },
+    {
+      "file": "nft-okay_bears-04.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 435341
+    },
+    {
+      "file": "nft-okay_bears-05.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 328963
+    },
+    {
+      "file": "nft-okay_bears-06.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 391475
+    },
+    {
+      "file": "nft-okay_bears-07.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 529814
+    },
+    {
+      "file": "nft-okay_bears-08.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 432227
+    },
+    {
+      "file": "nft-okay_bears-09.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 319495
+    },
+    {
+      "file": "nft-okay_bears-10.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 466540
+    },
+    {
+      "file": "nft-okay_bears-11.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 612442
+    },
+    {
+      "file": "nft-y00ts-00.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 409622
+    },
+    {
+      "file": "nft-y00ts-01.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 349836
+    },
+    {
+      "file": "nft-y00ts-02.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 377061
+    },
+    {
+      "file": "nft-y00ts-03.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 354888
+    },
+    {
+      "file": "nft-y00ts-04.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 288815
+    },
+    {
+      "file": "nft-y00ts-05.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 310235
+    },
+    {
+      "file": "nft-y00ts-06.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 270964
+    },
+    {
+      "file": "nft-y00ts-07.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 436156
+    },
+    {
+      "file": "nft-y00ts-08.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 259251
+    },
+    {
+      "file": "nft-y00ts-09.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 289816
+    },
+    {
+      "file": "nft-y00ts-10.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 412872
+    },
+    {
+      "file": "nft-y00ts-11.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 737131
+    },
+    {
+      "file": "okay_bears-1.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 610844
+    },
+    {
+      "file": "okay_bears-2.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 560134
+    },
+    {
+      "file": "okay_bears-3.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 498583
+    },
+    {
+      "file": "okay_bears-4.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 574227
+    },
+    {
+      "file": "okay_bears-5.png",
+      "slug": "okay_bears",
+      "name": "Okay Bears",
+      "bytes": 435341
+    },
+    {
+      "file": "y00ts-1.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 409622
+    },
+    {
+      "file": "y00ts-2.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 349836
+    },
+    {
+      "file": "y00ts-3.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 377061
+    },
+    {
+      "file": "y00ts-4.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 354888
+    },
+    {
+      "file": "y00ts-5.png",
+      "slug": "y00ts",
+      "name": "Y00Ts",
+      "bytes": 288815
+    }
+  ],
+  "count": 111
+}

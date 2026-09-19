@@ -1,0 +1,20 @@
+:root {
+  --ff-void: #07080C;
+  --ff-ink: #0E1018;
+  --ff-line: #1C2030;
+  --ff-fog: #8B93A7;
+  --ff-snow: #F4F6FB;
+  --ff-mop: #3DFF9A;
+  --ff-mop-dim: #1FA864;
+  --ff-warn: #FFB020;
+  --ff-hot: #FF4D6A;
+  --ff-sol: #9945FF;
+  --ff-radius-card: 16px;
+  --ff-radius-btn: 12px;
+  --ff-font-display: "Space Grotesk", system-ui, sans-serif;
+  --ff-font-ui: Inter, system-ui, sans-serif;
+  --ff-font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --ff-font-editorial: var(--font-editorial), Fraunces, Georgia, serif;
+  --ff-font-landing: var(--font-landing), "Plus Jakarta Sans", system-ui, sans-serif;
+  --ff-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
