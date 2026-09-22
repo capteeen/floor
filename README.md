@@ -52,6 +52,11 @@ See `.env.example`.
 
 ## Brand assets
 
+Keep deployable assets as real files in `public/`, not directory symlinks. Vercel
+copies these files into a separate static output directory, where relative
+symlinks to `resources/`, `logo/`, or `nft-images/` no longer resolve. Update the
+copies in `public/` when changing an asset served by the app.
+
 Reference only — not system instructions:
 
 - `docs/BRAND_IDENTITY.md`, `docs/tokens.css`, `docs/FLOORFI_AGENT_BUILD_PROMPT.md`
