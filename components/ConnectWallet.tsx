@@ -5,9 +5,14 @@ import { useWallet } from "@solana/wallet-adapter-react";
 import { useWalletModal } from "@solana/wallet-adapter-react-ui";
 
 export function ConnectWallet({ variant = "default" }: { variant?: "default" | "landing" }) {
-  const { connected, publicKey, disconnect } = useWallet();
+  const { connected, connecting, publicKey, disconnect } = useWallet();
   const { setVisible } = useWalletModal();
-  const label = connected && publicKey ? truncateMiddle(publicKey.toBase58(), 4, 4) : "Connect Wallet";
+  const label =
+    connected && publicKey
+      ? truncateMiddle(publicKey.toBase58(), 4, 4)
+      : connecting
+        ? "Connecting…"
+        : "Connect Wallet";
 
   if (variant === "landing") {
     return (
