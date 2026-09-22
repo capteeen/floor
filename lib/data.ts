@@ -302,7 +302,7 @@ export const coins: Coin[] = COIN_SEED.map((seed) => {
   const feesSweepSol = Number(((volume24hUsd / 180) * 0.8).toFixed(2));
   return {
     ...seed,
-    image: col?.cover ?? "/svg/floorfi-mark.svg",
+    image: col?.cover ?? "/svg/sweep-mark.svg",
     mcapUsd,
     volume24hUsd,
     change24h: ((h % 240) - 90) / 10,

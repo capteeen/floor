@@ -2,6 +2,8 @@
 
 import { ConnectWallet } from "@/components/ConnectWallet";
 import { Logo } from "@/components/Logo";
+import { TwitterLink } from "@/components/TwitterLink";
+import { appConfig } from "@/lib/config";
 import { cn } from "@/lib/format";
 import Link from "next/link";
 import { useState } from "react";
@@ -35,6 +37,7 @@ export function LandingNav() {
         </div>
 
         <div className="flex items-center gap-2">
+          <TwitterLink variant="landing" />
           <div className="hidden sm:block">
             <ConnectWallet variant="landing" />
           </div>
@@ -74,6 +77,15 @@ export function LandingNav() {
                 {link.label}
               </Link>
             ))}
+            <a
+              href={appConfig.twitterUrl}
+              target="_blank"
+              rel="noreferrer"
+              onClick={() => setOpen(false)}
+              className="rounded-2xl px-3 py-2.5 text-sm font-medium text-snow hover:bg-white/8"
+            >
+              X / Twitter
+            </a>
             <div className="px-1 pt-1 sm:hidden">
               <ConnectWallet variant="landing" />
             </div>

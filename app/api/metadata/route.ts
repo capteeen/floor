@@ -37,7 +37,7 @@ export async function POST(req: Request) {
   upstream.append("symbol", symbol);
   upstream.append(
     "description",
-    description || `${name} ($${symbol}) launched on Floorfi. 80% of creator fees mop the floor.`,
+    description || `${name} ($${symbol}) launched on Sweep. 80% of creator fees mop the floor.`,
   );
   upstream.append("twitter", twitter);
   upstream.append("telegram", telegram);

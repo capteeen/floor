@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Sweep — Twitter banner</title>
+  <style>
+    @font-face {
+      font-family: "Space Grotesk";
+      src: url("../fonts/SpaceGrotesk/space-grotesk-latin-600-normal.woff2") format("woff2");
+      font-weight: 600;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "Space Grotesk";
+      src: url("../fonts/SpaceGrotesk/space-grotesk-latin-700-normal.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "Inter";
+      src: url("../fonts/Inter/inter-latin-500-normal.woff2") format("woff2");
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "JetBrains Mono";
+      src: url("../fonts/JetBrainsMono/JetBrainsMono-Medium.ttf") format("truetype");
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "JetBrains Mono";
+      src: url("../fonts/JetBrainsMono/JetBrainsMono-Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 1500px;
+      height: 500px;
+      overflow: hidden;
+      background: #07080C;
+    }
+
+    .banner {
+      position: relative;
+      width: 1500px;
+      height: 500px;
+      overflow: hidden;
+      background: #07080C;
+      color: #F4F6FB;
+      isolation: isolate;
+    }
+
+    .grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(61, 255, 154, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(61, 255, 154, 0.045) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: radial-gradient(ellipse 80% 90% at 70% 40%, #000 20%, transparent 78%);
+    }
+
+    .glow-mop {
+      position: absolute;
+      width: 920px;
+      height: 620px;
+      right: -80px;
+      top: -90px;
+      background: radial-gradient(ellipse at 50% 50%, rgba(61, 255, 154, 0.22), rgba(61, 255, 154, 0.06) 38%, transparent 68%);
+      filter: blur(8px);
+    }
+
+    .glow-sol {
+      position: absolute;
+      width: 420px;
+      height: 320px;
+      right: 40px;
+      bottom: -80px;
+      background: radial-gradient(ellipse at 50% 50%, rgba(153, 69, 255, 0.16), transparent 70%);
+    }
+
+    .wash {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(7, 8, 12, 0.88) 0%, rgba(7, 8, 12, 0.55) 38%, rgba(7, 8, 12, 0.12) 64%, transparent 80%),
+        linear-gradient(180deg, rgba(7, 8, 12, 0.18) 0%, transparent 28%, transparent 62%, rgba(7, 8, 12, 0.55) 100%);
+    }
+
+    .noise {
+      position: absolute;
+      inset: 0;
+      opacity: 0.09;
+      pointer-events: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .copy {
+      position: absolute;
+      left: 72px;
+      top: 78px;
+      z-index: 3;
+      width: 640px;
+    }
+
+    .lockup {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .mark {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      box-shadow: 0 0 0 1px #1C2030, 0 0 0 1px rgba(61, 255, 154, 0.18) inset, 0 10px 28px rgba(0, 0, 0, 0.35);
+    }
+
+    .wordmark {
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 700;
+      font-size: 42px;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
+
+    .headline {
+      margin-top: 32px;
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 600;
+      font-size: 54px;
+      line-height: 0.96;
+      letter-spacing: -0.045em;
+    }
+
+    .headline .mop {
+      color: #3DFF9A;
+      text-shadow: 0 0 28px rgba(61, 255, 154, 0.28);
+    }
+
+    .tiles {
+      position: absolute;
+      right: 36px;
+      top: 58px;
+      width: 760px;
+      height: 360px;
+      z-index: 2;
+    }
+
+    .streak {
+      position: absolute;
+      left: -40px;
+      top: 148px;
+      width: 720px;
+      height: 28px;
+      transform: rotate(-11deg);
+      background: linear-gradient(90deg, transparent, rgba(61, 255, 154, 0.08), rgba(61, 255, 154, 0.55), rgba(61, 255, 154, 0.08), transparent);
+      filter: blur(6px);
+      z-index: 4;
+      pointer-events: none;
+    }
+
+    .tile {
+      position: absolute;
+      width: 186px;
+      height: 186px;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow:
+        0 0 0 1px rgba(244, 246, 251, 0.12),
+        0 18px 40px rgba(0, 0, 0, 0.45);
+    }
+
+    .tile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .tile-1 { left: 8px;   top: 92px; transform: rotate(-8deg); }
+    .tile-2 { left: 148px; top: 22px; transform: rotate(-3deg); }
+    .tile-3 { left: 304px; top: 54px; transform: rotate(4deg); box-shadow: 0 0 0 2px rgba(61, 255, 154, 0.78), 0 22px 50px rgba(0, 0, 0, 0.5); }
+    .tile-4 { left: 458px; top: 10px; transform: rotate(8deg); }
+    .tile-5 { left: 586px; top: 126px; transform: rotate(12deg); width: 148px; height: 148px; }
+
+    .chip {
+      position: absolute;
+      right: 72px;
+      bottom: 46px;
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(7, 8, 12, 0.62);
+      border: 1px solid rgba(244, 246, 251, 0.12);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(244, 246, 251, 0.08);
+      backdrop-filter: blur(16px);
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 13px;
+      letter-spacing: 0.02em;
+      color: #8B93A7;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #3DFF9A;
+      box-shadow: 0 0 10px rgba(61, 255, 154, 0.8);
+    }
+
+    .chip b {
+      color: #3DFF9A;
+      font-weight: 700;
+    }
+
+    .hairline {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(61, 255, 154, 0.55), transparent);
+      z-index: 6;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="glow-mop"></div>
+    <div class="glow-sol"></div>
+    <div class="grid"></div>
+    <div class="wash"></div>
+    <div class="noise"></div>
+    <div class="hairline"></div>
+
+    <div class="copy">
+      <div class="lockup">
+        <img class="mark" src="../svg/sweep-mark.svg" alt="" />
+        <div class="wordmark">Sweep</div>
+      </div>
+      <div class="headline">
+        Memecoins that<br />
+        <span class="mop">mop the floor.</span>
+      </div>
+    </div>
+
+    <div class="tiles">
+      <div class="streak"></div>
+      <div class="tile tile-1"><img src="../../nft-images/nft-mad_lads-03.jpg" alt="" /></div>
+      <div class="tile tile-2"><img src="../../nft-images/nft-okay_bears-00.png" alt="" /></div>
+      <div class="tile tile-3"><img src="../../nft-images/nft-degods-00.jpg" alt="" /></div>
+      <div class="tile tile-4"><img src="../../nft-images/nft-y00ts-00.png" alt="" /></div>
+      <div class="tile tile-5"><img src="../../nft-images/nft-famous_fox_federation-00.png" alt="" /></div>
+    </div>
+
+    <div class="chip">
+      <span class="dot"></span>
+      <span>2.41 SOL</span>
+      <span>·</span>
+      <b>FLOOR MOPPED</b>
+    </div>
+  </div>
+  <script>
+    Promise.all([
+      document.fonts.ready,
+      ...[...document.images].map((img) => img.decode ? img.decode().catch(() => {}) : Promise.resolve())
+    ]).then(() => { document.documentElement.dataset.ready = "1"; });
+  </script>
+</body>
+</html>

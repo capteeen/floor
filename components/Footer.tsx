@@ -1,5 +1,6 @@
 import { FeeSplitCallout } from "@/components/FeeSplitCallout";
 import { Logo } from "@/components/Logo";
+import { TwitterLink } from "@/components/TwitterLink";
 import { appConfig } from "@/lib/config";
 import { truncateMiddle } from "@/lib/format";
 import Link from "next/link";
@@ -32,6 +33,7 @@ export function Footer() {
             <Link href="/launch" className="hover:text-mop">
               Launch
             </Link>
+            <TwitterLink />
           </div>
         </div>
       </div>

@@ -25,6 +25,8 @@ export const appConfig = {
   protocolFeeWallet: process.env.NEXT_PUBLIC_PROTOCOL_FEE_WALLET || "",
   defaultSweepWallet: process.env.NEXT_PUBLIC_SWEEP_WALLET || "",
   solscanBase: process.env.NEXT_PUBLIC_SOLSCAN_BASE || "https://solscan.io",
+  twitterUrl: "https://x.com/floorfi_onsol",
+  twitterHandle: "@floorfi_onsol",
   feeSplit: FEE_SPLIT,
 };
 

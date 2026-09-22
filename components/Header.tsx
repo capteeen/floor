@@ -2,6 +2,8 @@
 
 import { ConnectWallet } from "@/components/ConnectWallet";
 import { Logo } from "@/components/Logo";
+import { TwitterLink } from "@/components/TwitterLink";
+import { appConfig } from "@/lib/config";
 import { cn } from "@/lib/format";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -48,6 +50,7 @@ export function Header() {
           })}
         </nav>
         <div className="flex items-center gap-2">
+          <TwitterLink variant="icon" />
           <ConnectWallet />
           <button
             type="button"
@@ -76,6 +79,15 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
+            <a
+              href={appConfig.twitterUrl}
+              target="_blank"
+              rel="noreferrer"
+              onClick={() => setOpen(false)}
+              className="rounded-btn px-2 py-2 font-display text-sm text-snow hover:bg-void"
+            >
+              X / Twitter
+            </a>
           </div>
         </nav>
       ) : null}

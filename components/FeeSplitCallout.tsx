@@ -20,11 +20,11 @@ export function FeeSplitCallout({
       </span>
       <div>
         <p className="font-display text-[13px] font-semibold tracking-wide text-mop">
-          Fee split locked: {FEE_SPLIT.sweep}% sweep wallet / {FEE_SPLIT.protocol}% Floorfi
+          Fee split locked: {FEE_SPLIT.sweep}% sweep wallet / {FEE_SPLIT.protocol}% Sweep
         </p>
         {!compact ? (
           <p className="mt-1 text-[13px] leading-relaxed text-fog">
-            Set on pump.fun at launch, admin revoked. Floorfi never holds fee authority. The
+            Set on pump.fun at launch, admin revoked. Sweep never holds fee authority. The
             sweep wallet buys the paired collection in public.
           </p>
         ) : null}

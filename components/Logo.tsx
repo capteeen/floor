@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
-    <Link href="/" className="flex items-center gap-3" aria-label="Floorfi home">
+    <Link href="/" className="flex items-center gap-3" aria-label="Sweep home">
       <img
-        src="/svg/floorfi-mark.svg"
+        src="/svg/sweep-mark.svg"
         alt=""
         width={32}
         height={32}
@@ -13,7 +13,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
       />
       {compact ? null : (
         <span className="font-display text-[22px] font-bold leading-none tracking-tight text-snow">
-          floorfi
+          Sweep
         </span>
       )}
     </Link>

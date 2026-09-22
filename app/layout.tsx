@@ -6,8 +6,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://floorfi.fun"),
   title: {
-    default: "Floorfi — Memecoins that mop the floor",
-    template: "%s · Floorfi",
+    default: "Sweep — Memecoins that mop the floor",
+    template: "%s · Sweep",
   },
   description:
     "Pair your coin with a collection. Lock the fee split. Every trade helps buy the floor — on chain, in public.",
@@ -20,7 +20,15 @@ export const metadata: Metadata = {
     apple: "/favicons/favicon-180.png",
   },
   openGraph: {
-    title: "Floorfi",
+    title: "Sweep",
+    description: "Memecoins that mop the floor.",
+    images: ["/logo/og-promo.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@floorfi_onsol",
+    creator: "@floorfi_onsol",
+    title: "Sweep",
     description: "Memecoins that mop the floor.",
     images: ["/logo/og-promo.png"],
   },

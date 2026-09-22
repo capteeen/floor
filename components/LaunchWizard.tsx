@@ -127,7 +127,7 @@ export function LaunchWizard() {
         wallet,
         name: draft.name,
         ticker: draft.ticker,
-        description: `${draft.name} ($${draft.ticker.toUpperCase()}) paired with ${collection.name} on Floorfi. ${FEE_SPLIT.sweep}% of creator fees mop the floor.`,
+        description: `${draft.name} ($${draft.ticker.toUpperCase()}) paired with ${collection.name} on Sweep. ${FEE_SPLIT.sweep}% of creator fees mop the floor.`,
         website: `https://floorfi.fun/collections/${collection.slug}`,
         imageFile,
         collectionSlug: collection.slug,
@@ -283,7 +283,7 @@ export function LaunchWizard() {
         <div className="space-y-4">
           <h1 className="font-display text-2xl font-bold md:text-3xl">Connect wallet</h1>
           <p className="text-fog">
-            Phantom or Solflare. You stay the on-chain pump.fun creator — Floorfi never holds fee
+            Phantom or Solflare. You stay the on-chain pump.fun creator — Sweep never holds fee
             authority.
           </p>
           <div className="flex flex-wrap gap-3">
@@ -415,7 +415,7 @@ export function LaunchWizard() {
           </div>
           <div className="ff-card overflow-hidden">
             <img
-              src={draft.preview || collection?.cover || "/svg/floorfi-mark.svg"}
+              src={draft.preview || collection?.cover || "/svg/sweep-mark.svg"}
               alt=""
               className="aspect-square w-full object-cover"
             />
@@ -429,7 +429,7 @@ export function LaunchWizard() {
           <h1 className="font-display text-2xl font-bold">Fee split preview</h1>
           <p className="text-fog">
             This cannot change after launch. 80% of creator fees route to the public sweep wallet
-            for {collection?.name}. 20% to Floorfi protocol.
+            for {collection?.name}. 20% to Sweep protocol.
           </p>
           <div className="overflow-hidden rounded-card border border-line">
             <div className="flex h-4">
@@ -445,7 +445,7 @@ export function LaunchWizard() {
                 </p>
               </div>
               <div className="border-l border-line p-4">
-                <p className="text-fog">Floorfi protocol</p>
+                <p className="text-fog">Sweep protocol</p>
                 <p className="font-display text-2xl font-bold">{FEE_SPLIT.protocol}%</p>
                 <p className="mt-2 text-[12px] text-fog">
                   {dest.protocolWallet ? <AddressChip address={protocolPreview} /> : protocolPreview}
